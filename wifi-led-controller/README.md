@@ -31,4 +31,11 @@ Web server started.
 
 ## Code
 
-The sketch will be added here soon, with the Wi-Fi names and passwords replaced by placeholders.
+[`WiFi_LED_Controller.ino`](WiFi_LED_Controller.ino) (Arduino framework, uses the built-in `WiFi` and `WebServer` libraries).
+
+Before uploading, set these values at the top of the sketch:
+
+- `homeSSID` / `homePassword`: your home Wi-Fi (optional; the ESP32-Light network works without it)
+- `apPassword`: password for the ESP32-Light network (at least 8 characters)
+
+The flashing runs in `loop()` with `millis()` instead of `delay()`, so the web page stays responsive while the LED blinks.
