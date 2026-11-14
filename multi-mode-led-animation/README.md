@@ -2,6 +2,10 @@
 
 8 LEDs in a row on a breadboard, driven by an ESP32, with two light animations. Each mode can be chosen with a push button or from a computer over USB.
 
+![Multi-Mode LED Animation running on the real board](https://rayan-rehou.netlify.app/led-animation-demo.gif)
+
+▶ [Watch the full videos and try the simulation](https://rayan-rehou.netlify.app/#led)
+
 ## Modes
 
 | Mode | Button | Serial command | What the LEDs do |
