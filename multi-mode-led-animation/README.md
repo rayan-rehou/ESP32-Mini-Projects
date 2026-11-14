@@ -2,7 +2,7 @@
 
 8 LEDs in a row on a breadboard, driven by an ESP32, with two light animations. Each mode can be chosen with a push button or from a computer over USB.
 
-![Multi-Mode LED Animation running on the real board](https://rayan-rehou.netlify.app/led-animation-demo.gif)
+![Multi-Mode LED Animation running on the real board](https://rayan-rehou.netlify.app/led-animation-demo.gif?v=2)
 
 ▶ [Watch the full videos and try the simulation](https://rayan-rehou.netlify.app/#led)
 
@@ -35,7 +35,7 @@ The LEDs are blue, green, red and yellow, repeated twice along the row.
 
 I drew this before building the circuit:
 
-![Hand-drawn schematic of the Multi-Mode LED Animation](https://rayan-rehou.netlify.app/led-animation-schematic.jpg)
+![Hand-drawn schematic of the Multi-Mode LED Animation](https://rayan-rehou.netlify.app/led-animation-schematic.jpg?v=2)
 
 ## Code
 
