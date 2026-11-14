@@ -24,12 +24,18 @@ Open the Serial Monitor in the Arduino IDE at **115200 baud** and send `1`, `2` 
 
 | Part | ESP32 pin |
 |---|---|
-| LED 1 to LED 8 (each with a resistor) | GPIO 23, 22, 21, 19, 18, 5, 17, 16 |
-| Button 1 / 2 / 3 | GPIO 2 / 4 / 15 |
+| LED 1 to LED 8 (each with a 220 Ω resistor to GND) | GPIO 23, 22, 21, 19, 18, 5, 17, 16 |
+| Button 1 / 2 / 3 (each with a 10 kΩ pull-down resistor) | GPIO 2 / 4 / 15 |
 
-The buttons use the ESP32's internal pull-down resistors (`INPUT_PULLDOWN`), so each one connects its pin to 3.3 V when pressed.
+The buttons are wired as pull-downs: the pin reads LOW until the button is pressed, then HIGH. The code also sets `INPUT_PULLDOWN`.
 
 The LEDs are blue, green, red and yellow, repeated twice along the row.
+
+### Draft schematic
+
+I drew this before building the circuit:
+
+![Hand-drawn schematic of the Multi-Mode LED Animation](https://rayan-rehou.netlify.app/led-animation-schematic.jpg)
 
 ## Code
 
