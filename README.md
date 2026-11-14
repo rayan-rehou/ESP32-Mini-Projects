@@ -2,9 +2,11 @@
 
 Small ESP32 projects I built and tested on a real breadboard (2026), programmed in C++ with the Arduino framework.
 
+![Multi-Mode LED Animation running on the real board](https://rayan-rehou.netlify.app/led-animation-demo.gif)
+
 | Project | What it does | Demo |
 |---|---|---|
-| [Multi-Mode LED Animation](multi-mode-led-animation/) | 8 LEDs with two light animations, chosen with 3 push buttons or from a computer over USB serial | — |
+| [Multi-Mode LED Animation](multi-mode-led-animation/) | 8 LEDs with two light animations, chosen with 3 push buttons or from a computer over USB serial | [Watch and try it](https://rayan-rehou.netlify.app/#led) |
 | [Wi-Fi LED Controller](wifi-led-controller/) | The ESP32 hosts a web page, and a phone turns an LED on, makes it flash, or turns it off | [Watch and try it](https://rayan-rehou.netlify.app/#wifi) |
 | [Button-Controlled Traffic Light](traffic-light/) | Push buttons start and stop a green → yellow → red LED sequence | [Watch and try it](https://rayan-rehou.netlify.app/#traffic) |
 
