@@ -2,7 +2,7 @@
 
 Small ESP32 projects I built and tested on a real breadboard (2026), programmed in C++ with the Arduino framework.
 
-![Multi-Mode LED Animation running on the real board](https://rayan-rehou.netlify.app/led-animation-demo.gif)
+![Multi-Mode LED Animation running on the real board](https://rayan-rehou.netlify.app/led-animation-demo.gif?v=2)
 
 | Project | What it does | Demo |
 |---|---|---|
